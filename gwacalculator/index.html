@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GWA CALCULATOR</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>GWA CALCULATOR</h1>
+
+
+<div class="form">
+
+
+<input id="subject" type="text" placeholder="Subject Name">
+
+
+<input id="units" type="number" placeholder="Units">
+
+
+<input id="prelim" type="number" placeholder="Prelim Grade">
+
+
+<input id="midterm" type="number" placeholder="Midterm Grade">
+
+
+<input id="final" type="number" placeholder="Final Grade">
+
+
+<button id="addButton">
+Add Subject
+</button>
+
+
+</div>
+
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Subject</th>
+<th>Units</th>
+<th>Prelim</th>
+<th>Midterm</th>
+<th>Final</th>
+<th>GWA</th>
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="tableBody">
+
+</tbody>
+
+
+</table>
+
+
+
+<div class="result">
+
+<h2 id="totalUnits">
+Total Units: 0
+</h2>
+
+
+<h2 id="overallGWA">
+Overall GWA: --
+</h2>
+
+
+</div>
+
+
+
+<hr>
+
+
+
+<h2>
+School Grading System
+</h2>
+
+
+<p>
+
+
+
+<textarea id="gradingSystem">
+100 - 98.50 = 1.00
+98.49 - 95.50 = 1.25
+95.49 - 92.50 = 1.50
+92.49 - 88.50 = 1.75
+88.49 - 84.50 = 2.00
+84.49 - 81.50 = 2.25
+81.49 - 78.50 = 2.50
+78.49 - 75.50 = 2.75
+75.49 - 74.50 = 3.00
+
+</textarea>
+
+
+<br><br>
+
+
+<button id="saveButton">
+Save Grading System
+</button>
+
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
